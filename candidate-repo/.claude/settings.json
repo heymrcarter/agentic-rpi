@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test:*)",
+      "Bash(npm run warmup:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npx vitest:*)"
+    ],
+    "deny": [
+      "WebFetch",
+      "WebSearch",
+      "Bash(npm install:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

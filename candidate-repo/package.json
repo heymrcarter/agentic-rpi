@@ -1,0 +1,17 @@
+{
+  "name": "rpi-agentic-pairing-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pairing interview exercise: review, test and extend an agent-drafted LRU cache.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run test/",
+    "warmup": "vitest run warmup/",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "vitest": "3.2.4"
+  }
+}
